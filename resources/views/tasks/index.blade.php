@@ -43,7 +43,7 @@
  
             <!-- テーブルヘッダ -->
             <thead>
-                <th>TaskTask!!!!</th>
+                <th>Task</th>
                 <th>&nbsp;</th>
             </thead>
  
@@ -63,7 +63,7 @@
                             {{ method_field('DELETE') }}
  
                             <button type="submit" id="delete-task-{{ $task->id }}" class="btn btn-danger">
-                                <i class="fa fa-btn fa-trash"></i>削除しよまえ！
+                                <i class="fa fa-btn fa-trash"></i>削除
                             </button>
                         </form>
                     </td>
